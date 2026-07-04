@@ -104,6 +104,5 @@ pub fn website() -> Element(message) {
 pub fn main() -> Nil {
   let app = lustre.element(website())
   let assert Ok(_) = lustre.start(app, "#app", Nil)
- 
   Nil
 }
